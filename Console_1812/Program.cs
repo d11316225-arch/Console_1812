@@ -18,10 +18,9 @@ public class Program
 
         //1: a1 是黑色
         string coord1 = "a1";
-        Console.WriteLine($"座標 '{coord1}' 是白色嗎? -> {sol.SquareIsWhite(coord1)}"); // 預期: False
+        Console.WriteLine($"座標 '{coord1}' 是白色嗎? -> {sol.SquareIsWhite(coord1)}"); 
 
         //2: h3 是白色
         string coord2 = "h3";
-        Console.WriteLine($"座標 '{coord2}' 是白色嗎? -> {sol.SquareIsWhite(coord2)}"); // 預期: True
-    }
+        Console.WriteLine($"座標 '{coord2}' 是白色嗎? -> {sol.SquareIsWhite(coord2)}"); 
 }
